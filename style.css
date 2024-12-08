@@ -1,0 +1,1199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Saira:ital,wdth,wght@0,50..125,700;1,50..125,700&family=Tajawal:wght@300;400;500;700;800;900&display=swap');
+
+:root {
+--primary-color: #033d4a;
+--secondary-color: #20c997;
+--bg-primary:#ecf0f3;
+}
+body.arabic {
+    font-family: 'Tajawal', sans-serif;
+  }
+  
+body.english {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+/*تغير اتجاه الصفحة للغات*/
+/* تنسيقات اللغة العربية */
+body.arabic {
+    text-align: right;
+    direction: rtl;
+}
+
+/* تنسيقات اللغة الإنجليزية */
+body.english {
+    text-align: left;
+    direction: ltr;
+}
+/*تغير اتجاه الصفحة للغات*/
+
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/*الثابته*/
+.container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 0 2rem;
+   
+}
+
+/*العنوان*/
+.title {
+    text-align: center;
+    padding: 10px;
+    color: #203864;
+    text-shadow:2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-size: 2.2em;
+    font-weight: 800;   
+    margin: 10px;
+    
+}
+
+/*العنوان*/
+
+/*الثابته*/
+
+/*Header Start*/
+header{
+    background: url(./img/5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #f7f7f7;
+    height: 100vh;
+}
+header .navbar {
+    background-color: #eff0f0;
+    border-bottom: 1px solid #ccc ;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    
+}
+header .navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin: auto;
+    padding: 1.5rem 2rem;
+
+
+   
+    
+}
+
+#home #logo {
+    color: #4472c4;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header .navbar nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .navbar nav ul a {
+    margin: 0 15px;
+    color: #222;
+    font-weight: 600;
+    transition: 0.3s ease;
+    border-bottom: 2px solid transparent;
+    
+}
+ .navbar nav ul a:hover,
+ .navbar nav ul a:active {
+    color: #2a7ce8;
+}
+/*led*/
+/*roport*/
+.robort{
+    width: 40%; /* تخصيص عرض أصغر للروبوت */
+    height: 566.39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.robort .spline-viewer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/*roport*/
+/*led*/
+header .header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 300px 2rem 0;
+    gap: 20px;
+    max-width: 1500px;
+    margin: auto;
+    
+}
+header .content-text{
+    width: 60%;
+    font-size: 1em;
+    
+}
+
+/* تنسيق النص */
+
+.content-text h1 {
+    color: #3b3838;
+    font-size: 1.4em;
+    font-weight: 600;
+    
+}
+.content-text h1 span {
+    color: #203864;
+    font-size: 2em;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.content-text p {
+    color: #3b3838;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+
+/* icon */ 
+
+#home .header-content .social-icons {
+    margin: 1rem 0 2rem;
+}
+
+#home .header-content .social-icons a i {
+    color: #333f50;
+    font-size: 40px;
+    padding: 10px;
+    text-shadow:2px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#home .header-content .social-icons a i:hover {
+    transform: scale(0.95);
+
+
+}
+/* icon */ 
+
+/* From Uiverse.io by omriluz */ 
+.main-btn {
+    position: relative;
+    padding: 10px 22px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-image: linear-gradient(-60deg, #585bff 0%, #196ff0 100%);
+    transition: all 0.2s ease;
+
+  }
+  
+  .main-btn:hover{
+    transform: scale(1.1);
+  }
+  
+  .main-btn:before,
+  .main-btn:after {
+    position: absolute;
+    content: "";
+    width: 150%;
+    left: 50%;
+    height: 100%;
+    transform: translateX(-50%);
+    z-index: -1000;
+    background-repeat: no-repeat;
+  }
+  
+  .main-btn:hover:before {
+    top: -70%;
+    background-image: radial-gradient(circle, #a89215 20%, transparent 20%),
+      radial-gradient(circle, transparent 20%, #13a5be 20%, transparent 30%),
+      radial-gradient(circle, #a3b82d 20%, transparent 20%),
+      radial-gradient(circle, #590cbe 20%, transparent 20%),
+      radial-gradient(circle, transparent 10%, #bd1717 15%, transparent 20%),
+      radial-gradient(circle, #2a7ce8 20%, transparent 20%),
+      radial-gradient(circle, #30e82a 20%, transparent 20%),
+      radial-gradient(circle, #e92c75 20%, transparent 20%),
+      radial-gradient(circle, #914fe7 20%, transparent 20%);
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
+      10% 10%, 18% 18%;
+    background-position: 50% 120%;
+    animation: greentopBubbles 0.6s ease;
+  }
+  
+  @keyframes greentopBubbles {
+    0% {
+      background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+        40% 90%, 55% 90%, 70% 90%;
+    }
+  
+    50% {
+      background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+        50% 50%, 65% 20%, 90% 30%;
+    }
+  
+    100% {
+      background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+        50% 40%, 65% 10%, 90% 20%;
+      background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+  }
+  
+  .main-btn:hover::after {
+    bottom: -70%;
+    background-image: radial-gradient(circle, #ff93db 20%, transparent 20%),
+      radial-gradient(circle, #2ae8df 20%, transparent 20%),
+      radial-gradient(circle, transparent 10%, #71ffbd 15%, transparent 20%),
+      radial-gradient(circle, #2a9ce8 20%, transparent 20%),
+      radial-gradient(circle, #7814fc 20%, transparent 20%),
+      radial-gradient(circle, #73e4f8 20%, transparent 20%),
+      radial-gradient(circle, #a9aaf8 20%, transparent 20%);
+    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+    background-position: 50% 0%;
+    animation: greenbottomBubbles 0.6s ease;
+  }
+  
+  @keyframes greenbottomBubbles {
+    0% {
+      background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
+        70% -10%, 70% 0%;
+    }
+  
+    50% {
+      background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+        105% 0%;
+    }
+  
+    100% {
+      background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+        110% 10%;
+      background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+  }
+  
+
+  .box {
+    width: 140px;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  .box:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+  }
+  
+  .box:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+  }
+  
+  .box:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .box:hover:before {
+    border-color: #262626;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+  }
+  
+  .box:hover:after {
+    border-color: #262626;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+  }
+  
+ .log {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+  }
+  
+/*boton*/
+/*الصورة*/
+/*header .header-content img {
+    max-width: 450px;
+  
+    
+}
+/*الصورة*/
+
+/*Header Start*/
+
+
+
+/*الكروت في صفحة الخدمات*/
+/*رأس الصفحة*/
+#Services {
+    padding: 6rem 0;
+
+}
+
+#Services .content {
+    margin-top: 2rem;
+    
+}
+/*رأس الصفحة*/
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 100px;
+    
+}
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+
+    transition: 0.7s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card .icon {
+    font-size: 3em;
+    text-align: center;
+}
+.info {
+    text-align: center;
+}
+.info h3{
+    color: #203864;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+   
+}
+.info p {
+    color:#3b3838;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+/*الكروت في صفحة الخدمات*/
+/*صفحة أعمالي*/
+/*رأس الصفحة*/
+#Projects {
+    padding: 6rem 0;
+}
+/*رأس الصفحة*/
+.Projects {
+    /*background-image: linear-gradient(-60deg, #ffffff 0%, #cccccc 50%, #c5c5c5 100%);*/
+    background-color: #e2e8ef;
+   
+}
+
+.Projects .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    max-width: 2000px;
+    margin-top: 20px;
+}
+
+.Projects .iframe-container {
+    width: 60%;
+    position: relative;
+    padding-bottom: 50%; /* نسبة أبعاد 16:9 */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Projects .text-container {
+    width: 35%;
+}
+.highlighted-text {
+    color: #107048 !important;
+    font-size: 1.1em;
+    font-family: 'Tajawal';
+    font-weight: bold;
+}
+.text-container p {
+    line-height: 1.6;
+    font-size: 1.3em;
+    font-weight:700; /* لضمان الأنما�� التي تتمثل بكلمات العنوان */
+    color: #3b3838;
+    font-family: 'Tajawal';
+    
+}
+
+.Projects .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+/*صفحة أعمالي*/
+
+/*صفحة المهارات*/
+
+#skills{
+    padding: 6rem 0;
+    background-color: #ffffff;
+}
+#skills h2 {
+    text-align: center;
+    padding: 10px;
+    color: #203864;
+    text-shadow:2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-size: 2.2em;
+    font-weight: 800;  
+}
+.skills-content .row img {
+    max-width: 50px;
+
+}
+
+.skills-content{
+   margin-top: 2rem;
+   background: #1412121f;
+   border-radius: 10PX;
+}
+
+#skills .skills-content .row {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    text-align: center;
+}
+.skills-content .row .item {
+    color: #3b3838;
+    background: #fff;
+    margin: 20px;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size:1em;
+    font-weight: 400;
+    
+}
+
+.skills-content .row .item:hover{
+    box-shadow:  0 5px 25px rgba(1 1 1 / 15%);
+    transition: 0.4s ease;
+    transform: scale(1.01);
+}
+
+.skills-content .row .item:nth-child(1) img {
+    max-width:80px;
+}.skills-content .row .item:nth-child(2) img {
+    max-width:80px;
+}.skills-content .row .item:nth-child(3) img {
+    max-width:80px;
+}.skills-content .row .item:nth-child(4) img {
+    max-width:80px;
+}
+
+.skills-content .row .item:nth-child(8) img {
+    max-width:140px;
+}
+.skills-content .row .item:nth-child(11) img {
+    max-width:80px;
+}
+.skills-content .row .item:nth-child(12) img {
+    max-width:80px;
+}
+.skills-content .row .item:nth-child(13) img {
+    max-width:80px;
+}
+/*صفحة المهارات*/
+
+/*صفحة التواصل*/
+#Contact{
+    padding: 6rem 0;
+    background-image: linear-gradient(-60deg, #585bff 0%, #6874d6 50%, #00388d 100%);
+}
+#Contact .title {
+    color: #fff;
+    
+}
+
+/*صفحة التواصل*/
+/*footer*/
+.footer {
+    background-color: #eff0f0;
+    color: #1f1f1f;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-title {
+    font-size: 1.03em;
+    font-weight: 500;
+    color: #000;
+}
+.footer .h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:0.6em;
+    font-weight: 700;
+    color: #222;
+}
+.social-icons a{
+    color: #033d4a;
+    padding: 2px;
+    font-size: 25px;
+}
+/*footer*/
+/*1080p*/
+@media (max-width: 1920px) {
+    .Projects .iframe-container{
+        padding-bottom: 30%;
+    }
+    .Projects .text-container{
+        font-size: small;
+    }
+}
+
+/*ipad pro*/
+@media (max-width:1024px) {
+    header .navbar nav{
+        display: block;
+        text-align: center;
+    }
+    #home #logo {
+        font-size: 30px;
+    }
+    
+    header .navbar nav ul{
+        margin-top: 20px;
+    }
+    header .navbar nav ul a {
+        margin: 0 8px;
+        font-size: 23px;
+    }
+    header .header-content{
+        flex-direction: column; /* يجعل الروبوت والنص تحت بعض */
+        align-items: center;
+        padding-top: 180px;
+    }
+    header .content-text, .robort{
+        width: 100%;
+    }
+    header .header-content .content-text{
+        margin-bottom:  2rem;
+        
+    }
+    
+    .content-text h1 {
+        font-size: 1.8em;
+    }
+    .content-text h1 span {
+        font-size: 1.4em;
+    }
+    .content-text p {
+        font-size: 1.4em;
+    }
+    .robort{
+        width: 600px;
+        height: 600px;
+    }
+    
+    
+    #Services {
+        padding: 9rem 0;
+        
+    }
+    #Services .content {
+        margin-top: 5rem;
+    }
+    .content {
+        display: grid;
+        
+    }
+    #Projects {
+        padding: 9rem 0;
+    }
+    
+    .Projects .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Projects .iframe-container{
+        width: 100%;
+        padding-bottom: 0;
+    } 
+    .Projects .text-container {
+        width: 100%; /* يجعل العناصر تأخذ كامل العرض */
+        padding-bottom: 0;
+        
+    }
+    
+    .iframe-container {
+        padding-bottom: 56.25%; /* يحافظ على نسبة الأبعاد للفيديو */
+    }
+    #skills h2 {
+        padding: 4rem;
+        
+    }
+    #skills .skills-content .row {
+        grid-template-columns: repeat(4,1fr);
+    }
+    .skills-content .row .item:nth-child(5) img {
+        max-width:80px;
+    }
+}
+
+/*ipad air*/
+@media(max-width: 820px){
+    header .header-content{
+        flex-direction: column; /* يجعل الروبوت والنص تحت بعض */
+        align-items: center;
+       
+        padding-top: 170px;
+    }
+    header .content-text, .robort{
+        width: 100%;
+    }
+    header .header-content .content-text{
+        margin-bottom:  2rem;
+        
+    }
+    header .content-text{
+       width: 100%;
+        font-size: 1em;
+    }
+    .robort{
+        width: 650px;
+        height: 600px;
+    }
+    .Projects .text-container{
+        font-size: small;
+    }
+
+    #skills .skills-content .row {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+}
+
+/*ipad air*/
+/*ipad mini*/
+@media(max-width: 768px){
+    header .header-content{
+        flex-direction: column; /* يجعل الروبوت والنص تحت بعض */
+        align-items: center;
+        padding-top: 160px;
+    }
+    header .content-text, .robort{
+        width: 100%;
+    }
+    header .header-content .content-text{
+        margin-bottom:  2rem;
+        
+    }
+    header .content-text{
+       width: 100%;
+        font-size: 1em;
+    }
+
+    #skills .skills-content .row {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+    .robort{
+        width: 430px;
+        height: 390px;
+    }
+    
+    .Projects .text-container{
+        font-size: small;
+    }
+}
+
+/*ipad mini*/
+
+/*iphon 14 pro max*/
+@media (max-width: 431px) {
+    #home #logo{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    header .navbar nav{
+        display: block;
+        text-align: center;
+    }
+    header .navbar nav ul{
+        margin-top: 5px;
+    }
+    header .navbar nav ul a {
+        margin: 0 8px;
+        font-size: 15px;
+    }
+    header .header-content{
+        flex-direction: column; /* يجعل الروبوت والنص تحت بعض */
+        align-items: center;
+        padding-top: 120px;
+        
+    }
+    header .content-text, .robort{
+        width: 100%;
+    }
+    header .header-content .content-text{
+        margin-bottom: 2rem;
+        font-size: 1em;
+        
+    }
+    header .content-text h1{
+        font-size: 1.6em;
+    }
+    header .content-text h1 span{
+        font-size: 1.0em;
+    }
+    header .content-text p{
+        font-size: 1em;
+    }
+    #Services {
+        padding: 9rem ;
+        
+    }
+    
+    #Services .content {
+        margin-top: 1rem;
+        
+    }
+    #Services .title{
+        display: flex;
+        justify-content: center;
+    }
+    #Projects {
+        padding: 8rem 0;
+    }
+    .Projects .container {
+        flex-direction: column;
+        align-items: center;
+   }
+   .Projects .iframe-container{
+    width: 100%;
+    padding-bottom: 0;
+   } 
+   .Projects .text-container {
+       width: 100%; /* يجعل العناصر تأخذ كامل العرض */
+       padding-bottom: 0;
+       font-size: 10px;
+       
+   }
+
+   .iframe-container {
+       padding-bottom: 56.25%; /* يحافظ على نسبة الأبعاد للفيديو */
+   }
+
+    
+    #skills h2 {
+        padding: 4rem;
+        
+    }
+    #skills .skills-content .row {
+        display: flow-root;
+    }
+    .skills-content .row .item:nth-child(6) img {
+        max-width:80px;
+    }.skills-content .row .item:nth-child(7) img {
+        max-width:80px;
+    }
+    .footer {
+        display: flex;
+        padding: 5px;
+    }    
+    .footer-title {
+        font-size: 7px;
+
+    }
+    .social-icons a{
+        font-size: 20px;
+    }
+    .footer .h6 {
+        font-size: 9px;
+    }    
+
+} 
+
+
+
+/*Llltra S2O Galaxy Samsung*/
+@media (max-width: 412px) {
+    #home #logo{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    header .navbar nav{
+        display: block;
+        text-align: center;
+    }
+    header .navbar nav ul{
+        margin-top: 5px;
+    }
+    header .navbar nav ul a {
+        margin: 0 8px;
+        font-size: 15px;
+    }
+    header .header-content{
+        flex-direction: column; /* يجعل الروبوت والنص تحت بعض */
+        align-items: center;
+       
+        padding: 30px;
+        
+    }
+    header .content-text, .robort{
+        width: 100%;
+    }
+    header .header-content .content-text{
+        margin-bottom: 2rem;
+        font-size: 1em;
+        
+    }
+    header .content-text h1{
+        font-size: 1.6em;
+    }
+    header .content-text h1 span{
+        font-size: 1.0em;
+    }
+    header .content-text p{
+        font-size: 1em;
+    }
+    #Services {
+        padding: 9rem ;
+        
+    }
+    
+    #Services .content {
+        margin-top: 1rem;
+        
+    }
+    #Services .title{
+        display: flex;
+        justify-content: center;
+    }
+    #Projects {
+        padding: 8rem 0;
+    }
+    .Projects .container {
+        flex-direction: column;
+        align-items: center;
+   }
+   .Projects .iframe-container{
+    width: 100%;
+    padding-bottom: 0;
+   } 
+   .Projects .text-container {
+       width: 100%; /* يجعل العناصر تأخذ كامل العرض */
+       padding-bottom: 0;
+       font-size: 10px;
+       
+   }
+
+   .iframe-container {
+       padding-bottom: 56.25%; /* يحافظ على نسبة الأبعاد للفيديو */
+   }
+
+    
+    #skills h2 {
+        padding: 4rem;
+        
+    }
+    #skills .skills-content .row {
+        display: flow-root;
+    }
+    .skills-content .row .item:nth-child(6) img {
+        max-width:80px;
+    }.skills-content .row .item:nth-child(7) img {
+        max-width:80px;
+    }
+    .footer {
+        display: flex;
+        padding: 5px;
+    }    
+    .footer-title {
+        font-size: 7px;
+
+    }
+    .social-icons a{
+        font-size: 20px;
+    }
+    .footer .h6 {
+        font-size: 9px;
+    }    
+
+} 
+
+/*iphon xr*/
+@media(max-width: 414px){
+    header .header-content{
+        flex-direction: column; /* يجعل الروبوت والنص تحت بعض */
+        align-items: center;
+        padding-top: 120px;
+        
+    }
+    #skills .skills-content .row {
+        display: flow-root;
+    }
+    .robort{
+        width: 350px;
+        height: 350px;
+    }
+}    
+/*iphon xr*/
+
+/*iphon 14 pro*/
+@media (max-width: 393px) {
+    #home #logo{
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    header .navbar nav {
+        display: block;
+        text-align: center;
+        
+    }
+    header .navbar nav ul{
+        margin-top: 5px;
+    }
+    header .navbar nav ul a {
+        margin: 0 7px;
+        font-size: 13px;
+        
+    }
+    header .header-content{
+        flex-direction: column; /* يجعل الروبوت والنص تحت بعض */
+        align-items: center;
+   
+        padding-top: 120px;
+        
+    }
+    header .content-text, .robort{
+        width: 100%;
+    }
+    header .header-content .content-text{
+        margin-bottom: 2rem;
+        font-size: 1em;
+        
+    }
+    header .content-text h1{
+        font-size: 1.6em;
+    }
+    header .content-text h1 span{
+        font-size: 1.0em;
+    }
+    header .content-text p{
+        font-size: 1em;
+    }
+    #Services {
+        padding: 9rem ;
+        
+    }
+    
+    #Services .content {
+        margin-top: 1rem;
+        
+    }
+    #Services .title{
+        display: flex;
+        justify-content: center;
+    }
+    #Projects {
+        padding: 8rem 0;
+    }
+    .Projects .container {
+        flex-direction: column;
+        align-items: center;
+   }
+   .Projects .iframe-container{
+    width: 100%;
+    padding-bottom: 0;
+   } 
+   .Projects .text-container {
+       width: 100%; /* يجعل العناصر تأخذ كامل العرض */
+       padding-bottom: 0;
+       font-size: 10px;
+       
+   }
+
+   .iframe-container {
+       padding-bottom: 56.25%; /* يحافظ على نسبة الأبعاد للفيديو */
+   }
+
+    
+    #skills h2 {
+        padding: 4rem;
+        
+    }
+    #skills .skills-content .row {
+        display: flow-root;
+    }
+    .skills-content .row .item:nth-child(6) img {
+        max-width:80px;
+    }.skills-content .row .item:nth-child(7) img {
+        max-width:80px;
+    }
+    .footer {
+        display: flex;
+        padding: 5px;
+    }    
+    .footer-title {
+        font-size: 7px;
+
+    }
+    .social-icons a{
+        font-size: 20px;
+    }
+    .footer .h6 {
+        font-size: 9px;
+    }    
+
+} 
+
+
+
+
+/*جلكسي اس 8 الخايس*/
+@media(max-width:360px){
+    header .header-content{
+        flex-direction: column; /* يجعل الروبوت والنص تحت بعض */
+        align-items: center;
+        padding-top: 110px;
+        font-size: small;
+    }
+    header .navbar nav ul a{
+        display: block;
+        text-align: center;
+        font-size: small;
+        
+    }
+
+    .content-text h1 {
+        font-size: medium;
+
+    }
+    .content-text h1 span {
+        font-size:larger;
+    }
+    .content-text p {
+        font-size:small ;
+    }
+    .content{
+        font-size: 0.9em;
+    }
+}
+@media(max-width:9600px){
+    .text-container{
+        font-size: 1.3em;
+    }
+    .iframe-container{
+        height: 500px;
+    }
+}
+@media(max-width:375px){
+    header .header-content{
+        flex-direction: column; /* يجعل الروبوت والنص تحت بعض */
+        align-items: center;
+        padding-top: 110px;
+        font-size: small;
+    }
+    .robort{
+        width: 230px;
+        height: 230px;
+    }
+    header .navbar nav ul a{
+        display: block;
+        text-align: center;
+        font-size: small;
+        
+    }
+
+    .content-text h1 {
+        font-size: medium;
+
+    }
+    .content-text h1 span {
+        font-size:larger;
+    }
+    .content-text p {
+        font-size:small ;
+    }
+    .content{
+        font-size: 0.9em;
+    }
+}
+@media(max-width:9600px){
+    .text-container{
+        font-size: 1.3em;
+    }
+    .iframe-container{
+        height: 500px;
+    }
+}
