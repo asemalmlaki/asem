@@ -1193,6 +1193,9 @@ header .content-text{
     .text-container{
         font-size: 1.3em;
     }
+    .header-content{
+        font-size: 1.2em;
+    }
     .iframe-container{
         height: 500px;
     }
