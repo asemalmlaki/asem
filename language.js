@@ -18,22 +18,11 @@ const translations = {
       "programming-title": "Programming",
       "programming-description": "(coming soon...)",
       "projects-title": "Projects",
-      "project0-description":  `Report Features:<br>This report provides a comprehensive overview of new Muslims, including:<br>Accurate Statistics: Total number and percentage of new Muslims, categorized by gender and monthly distribution.<br> Data Filtering: Filter documents by status (Completed/In Progress) and data by office or nationality.<br>Direct Search: Access personal information using the ID number.<br> Cooperative Office Analysis: Total number of offices and percentage of new Muslims in each office.<br>Data Visualization: A map showing the distribution of new Muslims by nationality.<br>Bilingual Support: Available in both Arabic and English.<br>This report offers a detailed and comprehensive analysis of new Muslims, contributing to a better understanding of their situation and supporting informed decision-making.<br><a href="./pdf/وزارة الشؤون الاسلامية.pdf" class="pdf" target="_blank">For more details click here</a>`,
-      "project1-description": `Report Features:<br>Displays the total number of committees meetings, recommendations and their implementation rate in the Guests of Allah Service Program.<br>
-                               Allows data to be filtered by committee name.<br>
-                               Displays for each committee:Total number of meetings, recommendations and implementation rate of recommendations.<br>
-                               Remaining period from the last meeting.<br>
-                               Displays the number of current and former members and the total.<br>
-                               Displays the participating parties and the number of their members.<br>
+      "project0-description":  `Report Features:<br>The report aims to provide accurate statistics and advanced analysis on the phenomenon of embracing Islam using Power BI. It features features such as data filtering, graphical visualizations, and bilingual support, which contribute to improving the follow-up of new Muslims, enhancing the efficiency of administrative work, and making effective strategic decisions.<br><a href="./pdf/وزارة الشؤون الاسلامية.pdf" class="pdf" target="_blank">For more details click here</a>`,
+      "project1-description": `Report Features:<br>The report aims to analyze the performance of the Guests of God Service Program using Power BI, by providing accurate statistics on committees and meetings and the percentage of implementing recommendations to improve administrative performance, make informed decisions, enhance cooperation, and save time and effort to improve the quality of services provided.<br>
                                <a href="./pdf/ضيوف الرحمن.pdf" class="pdf" target="_blank">For more details click here</a>`
                               ,
-      "project2-description": `Report Features:<br>Comprehensive overview: Accurate statistics on field visits and the number of Ruqyah practitioners (including violators).<br>
-                              In-depth analysis: Classification of practitioners by gender, nationality, and status (active, inactive, suspended).<br>
-                              Visual representation:
-                              Dashboard for the status of practitioners in each category.
-                              Map of activity locations.<br>
-                              Data filtering: List of practitioner professions to filter data as desired.<br>
-                              Detailed search: A page for searching by ID number allows access to all practitioner data, including committee opinion, observations, report details, and participating entities.<br>
+      "project2-description": `Report Features:<br>The report aims to monitor and regulate the work of practitioners of Sharia ruqyah using Power BI. It also provides accurate statistics and analyses of activities and violations, while enhancing transparency and regulation to improve oversight, support decision-making, and develop services provided to the community.<br>
                               <a href="./pdf/امارة منطقة مكة المكرمة -محافظة جدة.pdf" class="pdf" target="_blank">For more details click here</a>`
                               ,
       "skills-title": "Skills",
@@ -60,28 +49,13 @@ const translations = {
       "programming-description": "(قريباً...)",
       "projects-title": "المشاريع",
       "project0-description": `مميزات التقرير:<br>
-                              إحصائيات دقيقة عن إجمالي عدد ونسبة المسلمين الجدد حسب الجنس وتوزيعهم الشهري.<br>
-                              فلترة الوثائق حسب حالتها (مكتملة/تحت الإجراء) و البيانات حسب المكتب أو الجنسية.<br>
-                              بحث مباشر واستعراض المعلومات الشخصية باستخدام رقم الهوية.<br>
-                              تحليل المكاتب ومعرفة اجمالي عدد المكاتب ونسبة المسلمين الجدد في كل مكتب.<br>
-                              تصور بياني وخريطة توضح توزيع المسلمين الجدد حسب الجنسيات.<br>
-                              دعم اللغة العربية والانجليزية في التقرير.<br>
+                              يهدف التقرير إلى تقديم إحصائيات دقيقة وتحليلات متقدمة عن ظاهرة اعتناق الإسلام باستخدام Power BI، ويتميز بخصائص مثل تصفية البيانات والتصورات الرسومية ودعم اللغة الثنائية، مما يساهم في تحسين متابعة المسلمين الجدد، وتعزيز كفاءة العمل الإداري، واتخاذ القرارات الاستراتيجية الفعالة.<br>
                               <a href="./pdf/وزارة الشؤون الاسلامية.pdf" class="pdf" target="_blank">لمعرفة المزيد حول الاستفادة من التقرير</a>`,
       "project1-description": `مميزات التقرير:<br>
-                              عرض إجمالي بعدد اللجان والتوصيات ومعدل تنفيذها في برنامج خدمة ضيوف الرحمن.<br>
-                              إمكانية فلترة البيانات حسب اسم اللجنة.<br>
-                              عرض لكل لجنة: إجمالي عدد الإجتماعات، التوصيات، ومعدل تنفيذ التوصيات.<br>
-                              معرفة المدة المتبقية من آخر اجتماع.<br>
-                              عرض عدد الأعضاء الحاليين والسابقين والإجمالي.<br>
-                              عرض الجهات المشاركة وعدد أعضائها.<br>
+                             يهدف التقرير إلى تحليل أداء برنامج خدمة ضيوف الرحمن باستخدام برنامج Power BI، وذلك من خلال توفير إحصائيات دقيقة عن اللجان والاجتماعات ونسبة تنفيذ التوصيات لتحسين الأداء الإداري واتخاذ القرارات المدروسة وتعزيز التعاون وتوفير الوقت والجهد لتحسين جودة الخدمات المقدمة.<br>
                               <a href="./pdf/ضيوف الرحمن.pdf" class="pdf" target="_blank">لمعرفة المزيد حول الاستفادة من التقرير</a>`,
       "project2-description":`مميزات التقرير:<br>
-                              معرفة عدد الزيارات الشهرية.<br>
-                              إحصائيات دقيقة عن الزيارات الميدانية وعدد الممارسين للرقية الشرعية (بما فيهم المخالفين).<br>
-                              تصنيف الممارسين حسب نوع النشاط  (راقي شرعي/ معالج شعبي/ مفسر أحلام).<br>
-                              لوحة معلومات لمعرفة حالة الممارسين في كل مهنة(نشط/غير نشط/موقوف).<br>
-                              خريطة توضح مواقع نشاط الممارسين.<br>
-                              بحث مفصل: صفحة للبحث برقم الهوية تتيح الوصول إلى جميع بيانات الممارسين، بما في ذلك رأي اللجنة، والملاحظات، ومعدي التقرير، والجهات المشاركة.<br>
+                              يهدف التقرير إلى مراقبة وتنظيم عمل ممارسي الرقية الشرعية  باستخدام برنامج Power BI، كما يوفر إحصائيات وتحليلات دقيقة عن الأنشطة والمخالفات، مع تعزيز الشفافية والتنظيم لتحسين الرقابة ودعم اتخاذ القرار وتطوير الخدمات المقدمة للمجتمع.<br>
                               <a href="./pdf/امارة منطقة مكة المكرمة -محافظة جدة.pdf" class="pdf" target="_blank">لمعرفة المزيد حول الاستفادة من التقرير</a>`,
       "skills-title": "المهارات",
       "Contact-title": "التواصل",
